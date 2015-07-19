@@ -16,6 +16,7 @@
 		C41C5F111B5BCF7300D17543 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41C5F101B5BCF7300D17543 /* Images.xcassets */; };
 		C41C5F141B5BCF7300D17543 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41C5F121B5BCF7300D17543 /* LaunchScreen.xib */; };
 		C41C5F201B5BCF7300D17543 /* CustomTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41C5F1F1B5BCF7300D17543 /* CustomTableViewTests.m */; };
+		C41C5F2F1B5BD34200D17543 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C41C5F2E1B5BD34200D17543 /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		C41C5F191B5BCF7300D17543 /* CustomTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41C5F1E1B5BCF7300D17543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41C5F1F1B5BCF7300D17543 /* CustomTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewTests.m; sourceTree = "<group>"; };
+		C41C5F2D1B5BD34200D17543 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		C41C5F2E1B5BD34200D17543 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C41C5F011B5BCF7200D17543 /* AppDelegate.h */,
 				C41C5F021B5BCF7200D17543 /* AppDelegate.m */,
 				C41C5F071B5BCF7200D17543 /* MasterViewController.h */,
+				C41C5F2D1B5BD34200D17543 /* CustomTableViewCell.h */,
+				C41C5F2E1B5BD34200D17543 /* CustomTableViewCell.m */,
 				C41C5F081B5BCF7200D17543 /* MasterViewController.m */,
 				C41C5F0A1B5BCF7200D17543 /* DetailViewController.h */,
 				C41C5F0B1B5BCF7300D17543 /* DetailViewController.m */,
@@ -229,6 +234,7 @@
 			files = (
 				C41C5F0C1B5BCF7300D17543 /* DetailViewController.m in Sources */,
 				C41C5F091B5BCF7200D17543 /* MasterViewController.m in Sources */,
+				C41C5F2F1B5BD34200D17543 /* CustomTableViewCell.m in Sources */,
 				C41C5F031B5BCF7200D17543 /* AppDelegate.m in Sources */,
 				C41C5F001B5BCF7200D17543 /* main.m in Sources */,
 				C41C5F061B5BCF7200D17543 /* CustomTableView.xcdatamodeld in Sources */,
