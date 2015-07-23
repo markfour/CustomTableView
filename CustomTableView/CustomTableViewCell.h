@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "iOSMacro.h"
+
 @interface CustomTableViewCell : UITableViewCell
+
+@property (nonatomic) UILabel *titleLabel;
+@property (nonatomic) UIImageView *icon;
 
 @end
