@@ -90,7 +90,7 @@
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
         [context deleteObject:[self.fetchedResultsController objectAtIndexPath:indexPath]];
-            
+
         NSError *error = nil;
         if (![context save:&error]) {
             // Replace this implementation with code to handle the error appropriately.
@@ -102,9 +102,32 @@
 }
 
 - (void)configureCell:(CustomTableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
-//    NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.backgroundColor = HEXCOLOR(0x1abc9c);
-    cell.titleLabel.text = @"title";
+    NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    
+    cell.titleLabel.text = [[object valueForKey:@"timeStamp"] description];
+    
+    NSInteger colorType = indexPath.row;
+    if (colorType >= 5) colorType = colorType%5;
+    
+    switch (colorType) {
+        case 0:
+            cell.backgroundColor = HEXCOLOR(0x1FC0A3);
+            break;
+        case 1:
+            cell.backgroundColor = HEXCOLOR(0x4894D6);
+            break;
+        case 2:
+            cell.backgroundColor = HEXCOLOR(0x895FB1);
+            break;
+        case 3:
+            cell.backgroundColor = HEXCOLOR(0xD56262);
+            break;
+        case 4:
+            cell.backgroundColor = HEXCOLOR(0x3F4F62);
+            break;
+        default:
+            break;
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -189,7 +212,7 @@
             break;
             
         case NSFetchedResultsChangeUpdate:
-            [self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
+            [self configureCell:(CustomTableViewCell *)[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
             break;
             
         case NSFetchedResultsChangeMove:

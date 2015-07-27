@@ -15,6 +15,8 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     
     if (self) {
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        
         _icon = [[UIImageView alloc] init];
         _icon.frame = CGRectMake(32, 32, 32, 32);
         _icon.backgroundColor = [UIColor whiteColor];
@@ -23,9 +25,9 @@
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.frame = CGRectMake(CGRectGetMaxX(_icon.frame)+32,
                                        32,
-                                       192,
+                                       self.contentView.frame.size.width - (32*3),
                                        32);
-        _titleLabel.textColor = HEXCOLOR(0xecf0f1);
+        _titleLabel.textColor = HEXCOLOR(0xFAF7FB);
         [self.contentView addSubview:_titleLabel];
     }
     
