@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "MasterViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,11 +14,4 @@
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  MasterViewController *masterViewController = [[MasterViewController alloc] init];
-  UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
-  self.window.rootViewController = navigationController;
-  [self.window makeKeyWindow];
-  return YES;
-}
 @end
