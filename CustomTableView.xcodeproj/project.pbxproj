@@ -71,6 +71,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		204E0F7E20AFF4A9002A8CCF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C41C5F2D1B5BD34200D17543 /* CustomTableViewCell.h */,
+				C41C5F2E1B5BD34200D17543 /* CustomTableViewCell.m */,
+				204E0F4920AFEF1E002A8CCF /* CustomTableViewCell.xib */,
+				C41C5F0A1B5BCF7200D17543 /* DetailViewController.h */,
+				C41C5F0B1B5BCF7300D17543 /* DetailViewController.m */,
+				C41C5F071B5BCF7200D17543 /* MasterViewController.h */,
+				C41C5F081B5BCF7200D17543 /* MasterViewController.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		C41C5EF11B5BCF7200D17543 = {
 			isa = PBXGroup;
 			children = (
@@ -92,20 +106,14 @@
 		C41C5EFC1B5BCF7200D17543 /* CustomTableView */ = {
 			isa = PBXGroup;
 			children = (
+				204E0F7E20AFF4A9002A8CCF /* Class */,
 				C41C5F011B5BCF7200D17543 /* AppDelegate.h */,
 				C41C5F021B5BCF7200D17543 /* AppDelegate.m */,
 				C41C5F041B5BCF7200D17543 /* CustomTableView.xcdatamodeld */,
-				C41C5F2D1B5BD34200D17543 /* CustomTableViewCell.h */,
-				C41C5F2E1B5BD34200D17543 /* CustomTableViewCell.m */,
-				204E0F4920AFEF1E002A8CCF /* CustomTableViewCell.xib */,
-				C41C5F0A1B5BCF7200D17543 /* DetailViewController.h */,
-				C41C5F0B1B5BCF7300D17543 /* DetailViewController.m */,
 				C41C5F101B5BCF7300D17543 /* Images.xcassets */,
 				C41C5F301B614C3A00D17543 /* iOSMacro.h */,
 				C41C5F121B5BCF7300D17543 /* LaunchScreen.xib */,
 				C41C5F0D1B5BCF7300D17543 /* Main.storyboard */,
-				C41C5F071B5BCF7200D17543 /* MasterViewController.h */,
-				C41C5F081B5BCF7200D17543 /* MasterViewController.m */,
 				C41C5EFD1B5BCF7200D17543 /* Supporting Files */,
 			);
 			path = CustomTableView;
