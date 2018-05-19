@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204E0F4A20AFEF1E002A8CCF /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204E0F4920AFEF1E002A8CCF /* CustomTableViewCell.xib */; };
 		C41C5F001B5BCF7200D17543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C41C5EFF1B5BCF7200D17543 /* main.m */; };
 		C41C5F031B5BCF7200D17543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C41C5F021B5BCF7200D17543 /* AppDelegate.m */; };
 		C41C5F061B5BCF7200D17543 /* CustomTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C41C5F041B5BCF7200D17543 /* CustomTableView.xcdatamodeld */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		204E0F4920AFEF1E002A8CCF /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		C41C5EFA1B5BCF7200D17543 /* CustomTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41C5EFE1B5BCF7200D17543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41C5EFF1B5BCF7200D17543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				C41C5F041B5BCF7200D17543 /* CustomTableView.xcdatamodeld */,
 				C41C5F2D1B5BD34200D17543 /* CustomTableViewCell.h */,
 				C41C5F2E1B5BD34200D17543 /* CustomTableViewCell.m */,
+				204E0F4920AFEF1E002A8CCF /* CustomTableViewCell.xib */,
 				C41C5F0A1B5BCF7200D17543 /* DetailViewController.h */,
 				C41C5F0B1B5BCF7300D17543 /* DetailViewController.m */,
 				C41C5F101B5BCF7300D17543 /* Images.xcassets */,
@@ -217,6 +220,7 @@
 			files = (
 				C41C5F0F1B5BCF7300D17543 /* Main.storyboard in Resources */,
 				C41C5F141B5BCF7300D17543 /* LaunchScreen.xib in Resources */,
+				204E0F4A20AFEF1E002A8CCF /* CustomTableViewCell.xib in Resources */,
 				C41C5F111B5BCF7300D17543 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
