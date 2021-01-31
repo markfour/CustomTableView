@@ -2,17 +2,15 @@
 //  CustomTableViewCell.h
 //  CustomTableView
 //
-//  Created by HayashidaKazumi on 2015/07/19.
-//  Copyright (c) 2015年 HayashidaKazumi. All rights reserved.
+//  Created by kazumi hayashida on 2020/11/04.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "iOSMacro.h"
+NS_ASSUME_NONNULL_BEGIN
 
 @interface CustomTableViewCell : UITableViewCell
 
-@property (nonatomic) UILabel *titleLabel;
-@property (nonatomic) UIImageView *icon;
-
 @end
+
+NS_ASSUME_NONNULL_END

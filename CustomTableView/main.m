@@ -2,15 +2,17 @@
 //  main.m
 //  CustomTableView
 //
-//  Created by HayashidaKazumi on 2015/07/19.
-//  Copyright (c) 2015年 HayashidaKazumi. All rights reserved.
+//  Created by kazumi hayashida on 2020/11/03.
 //
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+  NSString * appDelegateClassName;
+  @autoreleasepool {
+      // Setup code that might create autoreleased objects goes here.
+      appDelegateClassName = NSStringFromClass([AppDelegate class]);
+  }
+  return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
