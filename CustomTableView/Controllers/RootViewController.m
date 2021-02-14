@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  self.title = @"CustomTableView Objective-C";
+  self.title = @"Objective-C CustomTableView";
 
   [self makeContents];
 
