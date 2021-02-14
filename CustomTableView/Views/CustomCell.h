@@ -2,7 +2,7 @@
 //  CustomCell.h
 //  CustomTableView
 //
-//  Created by kazumi hayashida on 2020/11/04.
+//  Created by Markfour on 2020/11/04.
 //
 
 #import <UIKit/UIKit.h>

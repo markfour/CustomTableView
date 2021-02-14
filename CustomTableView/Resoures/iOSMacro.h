@@ -1,8 +1,8 @@
 //
 //  iOSMacro.h
 //
-//  Created by HayashidaKazumi on 2015/06/22.
-//  Copyright (c) 2015年 HayashidaKazumi. All rights reserved.
+//  Created by Markfour on 2015/06/22.
+//  Copyright (c) 2015年 Markfour. All rights reserved.
 //
 
 ///Log Macro

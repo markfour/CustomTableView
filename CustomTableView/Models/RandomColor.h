@@ -2,7 +2,7 @@
 //  RandomColor.h
 //  CustomTableView
 //
-//  Created by kazumi hayashida on 2021/02/14.
+//  Created by Markfour on 2021/02/14.
 //
 
 #import <Foundation/Foundation.h>
