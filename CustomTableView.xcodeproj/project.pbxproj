@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A014F42425D930E900660C32 /* RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A014F42325D930E900660C32 /* RandomColor.m */; };
+		A014F43725D934AA00660C32 /* iOSMacro.h in Resources */ = {isa = PBXBuildFile; fileRef = A06CCBB12551AA87006DB5AE /* iOSMacro.h */; };
 		A06CCB6E2551A620006DB5AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB6D2551A620006DB5AE /* AppDelegate.m */; };
 		A06CCB712551A620006DB5AE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB702551A620006DB5AE /* SceneDelegate.m */; };
 		A06CCB742551A620006DB5AE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB732551A620006DB5AE /* RootViewController.m */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A014F42225D930E900660C32 /* RandomColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomColor.h; sourceTree = "<group>"; };
+		A014F42325D930E900660C32 /* RandomColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomColor.m; sourceTree = "<group>"; };
 		A06CCB692551A620006DB5AE /* CustomTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06CCB6C2551A620006DB5AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A06CCB6D2551A620006DB5AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 		A036F46325D9278400DB18ED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A014F42225D930E900660C32 /* RandomColor.h */,
+				A014F42325D930E900660C32 /* RandomColor.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A014F43725D934AA00660C32 /* iOSMacro.h in Resources */,
 				A06CCB7C2551A621006DB5AE /* LaunchScreen.storyboard in Resources */,
 				A06CCB792551A621006DB5AE /* Assets.xcassets in Resources */,
 				A06CCBAD2551A8D0006DB5AE /* CustomTableViewCell.xib in Resources */,
@@ -311,6 +318,7 @@
 			files = (
 				A06CCB742551A620006DB5AE /* RootViewController.m in Sources */,
 				A06CCB6E2551A620006DB5AE /* AppDelegate.m in Sources */,
+				A014F42425D930E900660C32 /* RandomColor.m in Sources */,
 				A06CCB7F2551A621006DB5AE /* main.m in Sources */,
 				A06CCBAC2551A8D0006DB5AE /* CustomTableViewCell.m in Sources */,
 				A06CCB712551A620006DB5AE /* SceneDelegate.m in Sources */,
