@@ -18,8 +18,8 @@
 		A06CCB7F2551A621006DB5AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB7E2551A621006DB5AE /* main.m */; };
 		A06CCB892551A621006DB5AE /* CustomTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB882551A621006DB5AE /* CustomTableViewTests.m */; };
 		A06CCB942551A621006DB5AE /* CustomTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB932551A621006DB5AE /* CustomTableViewUITests.m */; };
-		A06CCBAC2551A8D0006DB5AE /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCBAA2551A8D0006DB5AE /* CustomTableViewCell.m */; };
-		A06CCBAD2551A8D0006DB5AE /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06CCBAB2551A8D0006DB5AE /* CustomTableViewCell.xib */; };
+		A06CCBAC2551A8D0006DB5AE /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCBAA2551A8D0006DB5AE /* CustomCell.m */; };
+		A06CCBAD2551A8D0006DB5AE /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06CCBAB2551A8D0006DB5AE /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +60,9 @@
 		A06CCB8F2551A621006DB5AE /* CustomTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06CCB932551A621006DB5AE /* CustomTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewUITests.m; sourceTree = "<group>"; };
 		A06CCB952551A621006DB5AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A06CCBA92551A8D0006DB5AE /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
-		A06CCBAA2551A8D0006DB5AE /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
-		A06CCBAB2551A8D0006DB5AE /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		A06CCBA92551A8D0006DB5AE /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		A06CCBAA2551A8D0006DB5AE /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		A06CCBAB2551A8D0006DB5AE /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		A06CCBB12551AA87006DB5AE /* iOSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,9 +94,9 @@
 		A036F46125D9277800DB18ED /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A06CCBA92551A8D0006DB5AE /* CustomTableViewCell.h */,
-				A06CCBAA2551A8D0006DB5AE /* CustomTableViewCell.m */,
-				A06CCBAB2551A8D0006DB5AE /* CustomTableViewCell.xib */,
+				A06CCBA92551A8D0006DB5AE /* CustomCell.h */,
+				A06CCBAA2551A8D0006DB5AE /* CustomCell.m */,
+				A06CCBAB2551A8D0006DB5AE /* CustomCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 				A014F43725D934AA00660C32 /* iOSMacro.h in Resources */,
 				A06CCB7C2551A621006DB5AE /* LaunchScreen.storyboard in Resources */,
 				A06CCB792551A621006DB5AE /* Assets.xcassets in Resources */,
-				A06CCBAD2551A8D0006DB5AE /* CustomTableViewCell.xib in Resources */,
+				A06CCBAD2551A8D0006DB5AE /* CustomCell.xib in Resources */,
 				A06CCB772551A620006DB5AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +320,7 @@
 				A06CCB6E2551A620006DB5AE /* AppDelegate.m in Sources */,
 				A014F42425D930E900660C32 /* RandomColor.m in Sources */,
 				A06CCB7F2551A621006DB5AE /* main.m in Sources */,
-				A06CCBAC2551A8D0006DB5AE /* CustomTableViewCell.m in Sources */,
+				A06CCBAC2551A8D0006DB5AE /* CustomCell.m in Sources */,
 				A06CCB712551A620006DB5AE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

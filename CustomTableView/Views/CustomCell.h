@@ -1,5 +1,5 @@
 //
-//  CustomTableViewCell.h
+//  CustomCell.h
 //  CustomTableView
 //
 //  Created by kazumi hayashida on 2020/11/04.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CustomTableViewCell : UITableViewCell
+@interface CustomCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
 

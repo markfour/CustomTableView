@@ -7,7 +7,7 @@
 
 #import "RootViewController.h"
 
-#import "CustomTableViewCell.h"
+#import "CustomCell.h"
 #import "RandomColor.h"
 
 @interface RootViewController () <UITableViewDelegate ,UITableViewDataSource>
@@ -27,7 +27,7 @@
 
   _tableView.delegate = self;
   _tableView.dataSource = self;
-  NSString *cellName = NSStringFromClass([CustomTableViewCell class]);
+  NSString *cellName = NSStringFromClass([CustomCell class]);
   [_tableView registerNib:[UINib nibWithNibName:cellName bundle:nil] forCellReuseIdentifier:cellName];
 }
 
@@ -36,8 +36,8 @@
 }
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-  NSString *cellName = NSStringFromClass([CustomTableViewCell class]);
-  CustomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellName forIndexPath:indexPath];
+  NSString *cellName = NSStringFromClass([CustomCell class]);
+  CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:cellName forIndexPath:indexPath];
   cell.iconImageView.backgroundColor = _colorContents[indexPath.row];
   return cell;
 }
