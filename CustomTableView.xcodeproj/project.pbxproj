@@ -117,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				A06CCB782551A621006DB5AE /* Assets.xcassets */,
-				A06CCB7D2551A621006DB5AE /* Info.plist */,
 				A06CCBB12551AA87006DB5AE /* iOSMacro.h */,
 				A06CCB7E2551A621006DB5AE /* main.m */,
 			);
@@ -147,6 +146,7 @@
 		A06CCB6B2551A620006DB5AE /* CustomTableView */ = {
 			isa = PBXGroup;
 			children = (
+				A06CCB7D2551A621006DB5AE /* Info.plist */,
 				A06CCB6C2551A620006DB5AE /* AppDelegate.h */,
 				A06CCB6D2551A620006DB5AE /* AppDelegate.m */,
 				A06CCB6F2551A620006DB5AE /* SceneDelegate.h */,

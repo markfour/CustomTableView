@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-1657" y="-124"/>
         </scene>
-        <!--View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="83Z-Oc-ZQN">
             <objects>
-                <viewController id="urO-eC-s8q" sceneMemberID="viewController">
+                <viewController id="urO-eC-s8q" customClass="RootViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dwk-OP-Th8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,6 +47,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3SZ-mx-cIO"/>
+                    <connections>
+                        <outlet property="tableView" destination="SZA-c4-do3" id="nKp-My-xdw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LtJ-MY-uty" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
