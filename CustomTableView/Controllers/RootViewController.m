@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
+  self.title = @"CustomTableView Objective-C";
+
   [self makeContents];
 
   _tableView.delegate = self;

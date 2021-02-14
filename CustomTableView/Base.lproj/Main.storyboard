@@ -33,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SZA-c4-do3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -42,7 +42,7 @@
                         <constraints>
                             <constraint firstItem="SZA-c4-do3" firstAttribute="leading" secondItem="mes-Im-FH7" secondAttribute="leading" id="WeA-8c-wW4"/>
                             <constraint firstItem="mes-Im-FH7" firstAttribute="trailing" secondItem="SZA-c4-do3" secondAttribute="trailing" id="iFT-0l-tcL"/>
-                            <constraint firstItem="mes-Im-FH7" firstAttribute="bottom" secondItem="SZA-c4-do3" secondAttribute="bottom" id="kVM-W1-tRa"/>
+                            <constraint firstAttribute="bottom" secondItem="SZA-c4-do3" secondAttribute="bottom" id="kVM-W1-tRa"/>
                             <constraint firstItem="SZA-c4-do3" firstAttribute="top" secondItem="mes-Im-FH7" secondAttribute="top" id="w1Q-Za-luH"/>
                         </constraints>
                     </view>
