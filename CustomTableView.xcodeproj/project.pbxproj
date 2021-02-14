@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A014F42425D930E900660C32 /* RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A014F42325D930E900660C32 /* RandomColor.m */; };
-		A014F43725D934AA00660C32 /* iOSMacro.h in Resources */ = {isa = PBXBuildFile; fileRef = A06CCBB12551AA87006DB5AE /* iOSMacro.h */; };
 		A06CCB6E2551A620006DB5AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB6D2551A620006DB5AE /* AppDelegate.m */; };
 		A06CCB712551A620006DB5AE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB702551A620006DB5AE /* SceneDelegate.m */; };
 		A06CCB742551A620006DB5AE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06CCB732551A620006DB5AE /* RootViewController.m */; };
@@ -63,7 +62,6 @@
 		A06CCBA92551A8D0006DB5AE /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		A06CCBAA2551A8D0006DB5AE /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		A06CCBAB2551A8D0006DB5AE /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
-		A06CCBB12551AA87006DB5AE /* iOSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				A06CCB782551A621006DB5AE /* Assets.xcassets */,
-				A06CCBB12551AA87006DB5AE /* iOSMacro.h */,
 				A06CCB7E2551A621006DB5AE /* main.m */,
 			);
 			path = Resoures;
@@ -287,7 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A014F43725D934AA00660C32 /* iOSMacro.h in Resources */,
 				A06CCB7C2551A621006DB5AE /* LaunchScreen.storyboard in Resources */,
 				A06CCB792551A621006DB5AE /* Assets.xcassets in Resources */,
 				A06CCBAD2551A8D0006DB5AE /* CustomCell.xib in Resources */,
