@@ -87,6 +87,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A036F46125D9277800DB18ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A06CCBA92551A8D0006DB5AE /* CustomTableViewCell.h */,
+				A06CCBAA2551A8D0006DB5AE /* CustomTableViewCell.m */,
+				A06CCBAB2551A8D0006DB5AE /* CustomTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A036F46225D9277B00DB18ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A06CCB722551A620006DB5AE /* RootViewController.h */,
+				A06CCB732551A620006DB5AE /* RootViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A036F46325D9278400DB18ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A036F46425D927A000DB18ED /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				A06CCB782551A621006DB5AE /* Assets.xcassets */,
+				A06CCB7D2551A621006DB5AE /* Info.plist */,
+				A06CCBB12551AA87006DB5AE /* iOSMacro.h */,
+				A06CCB7E2551A621006DB5AE /* main.m */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
 		A06CCB602551A61F006DB5AE = {
 			isa = PBXGroup;
 			children = (
@@ -112,19 +149,14 @@
 			children = (
 				A06CCB6C2551A620006DB5AE /* AppDelegate.h */,
 				A06CCB6D2551A620006DB5AE /* AppDelegate.m */,
-				A06CCB782551A621006DB5AE /* Assets.xcassets */,
-				A06CCB722551A620006DB5AE /* RootViewController.h */,
-				A06CCB732551A620006DB5AE /* RootViewController.m */,
-				A06CCBA92551A8D0006DB5AE /* CustomTableViewCell.h */,
-				A06CCBAA2551A8D0006DB5AE /* CustomTableViewCell.m */,
-				A06CCBAB2551A8D0006DB5AE /* CustomTableViewCell.xib */,
-				A06CCB7D2551A621006DB5AE /* Info.plist */,
-				A06CCBB12551AA87006DB5AE /* iOSMacro.h */,
-				A06CCB7A2551A621006DB5AE /* LaunchScreen.storyboard */,
-				A06CCB7E2551A621006DB5AE /* main.m */,
-				A06CCB752551A620006DB5AE /* Main.storyboard */,
 				A06CCB6F2551A620006DB5AE /* SceneDelegate.h */,
 				A06CCB702551A620006DB5AE /* SceneDelegate.m */,
+				A06CCB7A2551A621006DB5AE /* LaunchScreen.storyboard */,
+				A06CCB752551A620006DB5AE /* Main.storyboard */,
+				A036F46325D9278400DB18ED /* Models */,
+				A036F46125D9277800DB18ED /* Views */,
+				A036F46225D9277B00DB18ED /* Controllers */,
+				A036F46425D927A000DB18ED /* Resoures */,
 			);
 			path = CustomTableView;
 			sourceTree = "<group>";
